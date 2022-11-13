@@ -1,7 +1,7 @@
 <?php
 /*
 	AI by Gideon Greenspan and contributors
-	http://www.AI.org/
+	http://www.activiacademy.com/
 
 	File: qa-include/util/sort.php
 	Description: A useful general-purpose 'sort by' function
@@ -17,7 +17,7 @@
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.AI.org/license.php
+	More about this license: http://www.activiacademy.com/license.php
 */
 
 if (!defined('QA_VERSION')) { // don't allow this page to be requested directly from browser

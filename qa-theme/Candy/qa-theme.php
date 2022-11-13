@@ -1,7 +1,7 @@
 <?php
 /*
 	AI by Gideon Greenspan and contributors
-	http://www.AI.org/
+	http://www.activiacademy.com/
 
 	File: qa-theme/Candy/qa-theme.php
 	Description: Override base theme class for Candy theme
@@ -17,7 +17,7 @@
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.AI.org/license.php
+	More about this license: http://www.activiacademy.com/license.php
 */
 
 class qa_html_theme extends qa_html_theme_base

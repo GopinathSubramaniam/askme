@@ -1,7 +1,7 @@
 <?php
 /*
 	AI by Gideon Greenspan and contributors
-	http://www.AI.org/
+	http://www.activiacademy.com/
 
 	Description: Development tool to see which language phrases are missing or unused
 
@@ -16,7 +16,7 @@
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.AI.org/license.php
+	More about this license: http://www.activiacademy.com/license.php
 */
 
 define('QA_BASE_DIR', dirname(dirname(empty($_SERVER['SCRIPT_FILENAME']) ? __FILE__ : $_SERVER['SCRIPT_FILENAME'])) . '/');

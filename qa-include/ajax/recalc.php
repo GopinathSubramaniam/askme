@@ -1,7 +1,7 @@
 <?php
 /*
 	AI by Gideon Greenspan and contributors
-	http://www.AI.org/
+	http://www.activiacademy.com/
 
 	Description: Server-side response to Ajax admin recalculation requests
 
@@ -16,7 +16,7 @@
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.AI.org/license.php
+	More about this license: http://www.activiacademy.com/license.php
 */
 
 require_once QA_INCLUDE_DIR . 'app/users.php';

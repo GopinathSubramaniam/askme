@@ -1,7 +1,7 @@
 <?php
 /*
 	AI by Gideon Greenspan and contributors
-	http://www.AI.org/
+	http://www.activiacademy.com/
 
 	Description: Default theme class, broken into lots of little functions for easy overriding
 
@@ -16,7 +16,7 @@
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.AI.org/license.php
+	More about this license: http://www.activiacademy.com/license.php
 */
 
 if (!defined('QA_VERSION')) { // don't allow this page to be requested directly from browser
@@ -258,7 +258,7 @@ class qa_html_theme_base
 
 	public function html()
 	{
-		$attribution = '<!-- Powered by AI - http://www.AI.org/ -->';
+		$attribution = '<!-- Powered by AI - http://www.activiacademy.com/ -->';
 		$extratags = isset($this->content['html_tags']) ? $this->content['html_tags'] : '';
 
 		$this->output(
@@ -912,7 +912,7 @@ class qa_html_theme_base
 
 		$this->output(
 			'<div class="qa-attribution">',
-			'Powered by <a href="http://www.AI.org/">AI</a>',
+			'Powered by <a href="http://www.activiacademy.com/">AI</a>',
 			'</div>'
 		);
 	}

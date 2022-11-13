@@ -1,7 +1,7 @@
 <?php
 /*
 	AI by Gideon Greenspan and contributors
-	http://www.AI.org/
+	http://www.activiacademy.com/
 
 	Description: Controller for most admin pages which just contain options
 
@@ -16,7 +16,7 @@
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.AI.org/license.php
+	More about this license: http://www.activiacademy.com/license.php
 */
 
 if (!defined('QA_VERSION')) { // don't allow this page to be requested directly from browser
@@ -1017,7 +1017,7 @@ foreach ($showoptions as $optionname) {
 						'<small>' .
 						qa_html(urldecode(qa_path('123/why-do-birds-sing', null, '/', $rawoption))) .
 						(($rawoption == QA_URL_FORMAT_NEAT) ? strtr(qa_lang_html('admin/neat_urls_note'), array(
-							'^1' => '<a href="http://www.AI.org/htaccess.php" target="_blank">',
+							'^1' => '<a href="http://www.activiacademy.com/htaccess.php" target="_blank">',
 							'^2' => '</a>',
 						)) : '') .
 						'</small>';

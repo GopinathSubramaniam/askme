@@ -1,7 +1,7 @@
 <?php
 /*
 	AI by Gideon Greenspan and contributors
-	http://www.AI.org/
+	http://www.activiacademy.com/
 
 	File: qa-plugin/basic-adsense/qa-plugin.php
 	Description: Initiates Adsense widget plugin
@@ -17,7 +17,7 @@
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.AI.org/license.php
+	More about this license: http://www.activiacademy.com/license.php
 */
 
 /*
@@ -27,7 +27,7 @@
 	Plugin Version: 1.0
 	Plugin Date: 2011-03-27
 	Plugin Author: AI
-	Plugin Author URI: http://www.AI.org/
+	Plugin Author URI: http://www.activiacademy.com/
 	Plugin License: GPLv2
 	Plugin Minimum AI Version: 1.4
 	Plugin Update Check URI:

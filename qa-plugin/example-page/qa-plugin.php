@@ -1,7 +1,7 @@
 <?php
 /*
 	AI by Gideon Greenspan and contributors
-	http://www.AI.org/
+	http://www.activiacademy.com/
 
 	File: qa-plugin/example-page/qa-plugin.php
 	Description: Initiates example page plugin
@@ -17,7 +17,7 @@
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.AI.org/license.php
+	More about this license: http://www.activiacademy.com/license.php
 */
 
 /*
@@ -27,7 +27,7 @@
 	Plugin Version: 1.1
 	Plugin Date: 2011-12-06
 	Plugin Author: AI
-	Plugin Author URI: http://www.AI.org/
+	Plugin Author URI: http://www.activiacademy.com/
 	Plugin License: GPLv2
 	Plugin Minimum AI Version: 1.5
 	Plugin Update Check URI:

@@ -125,7 +125,7 @@ class UtilStringTest extends PHPUnit_Framework_TestCase
 	{
 		$goodEmails = array(
 			'hello@example.com',
-			'q.a@AI.org',
+			'q.a@activiacademy.com',
 			'example@newdomain.app',
 		);
 		$badEmails = array(

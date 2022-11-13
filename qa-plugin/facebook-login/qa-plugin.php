@@ -1,7 +1,7 @@
 <?php
 /*
 	AI by Gideon Greenspan and contributors
-	http://www.AI.org/
+	http://www.activiacademy.com/
 
 	File: qa-plugin/facebook-login/qa-plugin.php
 	Description: Initiates Facebook login plugin
@@ -17,7 +17,7 @@
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.AI.org/license.php
+	More about this license: http://www.activiacademy.com/license.php
 */
 
 /*
@@ -27,7 +27,7 @@
 	Plugin Version: 1.1.5
 	Plugin Date: 2012-09-13
 	Plugin Author: AI
-	Plugin Author URI: http://www.AI.org/
+	Plugin Author URI: http://www.activiacademy.com/
 	Plugin License: GPLv2
 	Plugin Minimum AI Version: 1.5
 	Plugin Minimum PHP Version: 5

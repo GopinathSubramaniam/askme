@@ -1,6 +1,6 @@
 /*
 	AI by Gideon Greenspan and contributors
-	http://www.AI.org/
+	http://www.activiacademy.com/
 
 	File: qa-content/qa-question.js
 	Description: THIS FILE HAS BEEN DEPRECATED IN FAVOUR OF qa-global.js
@@ -16,7 +16,7 @@
 	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 	GNU General Public License for more details.
 
-	More about this license: http://www.AI.org/license.php
+	More about this license: http://www.activiacademy.com/license.php
 */
 
 var qa_element_revealed = null;
