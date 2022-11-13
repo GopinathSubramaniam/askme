@@ -54,11 +54,27 @@ if (!defined('QA_VERSION')) { // don't allow this page to be requested directly 
  * @param $dummy
  * @return array
  */
-function qa_q_list_page_content($questions, $pagesize, $start, $count, $sometitle, $nonetitle,
-	$navcategories, $categoryid, $categoryqcount, $categorypathprefix, $feedpathprefix, $suggest,
-	$pagelinkparams = null, $categoryparams = null, $dummy = null)
-{
-	if (qa_to_override(__FUNCTION__)) { $args=func_get_args(); return qa_call_override(__FUNCTION__, $args); }
+function qa_q_list_page_content(
+	$questions,
+	$pagesize,
+	$start,
+	$count,
+	$sometitle,
+	$nonetitle,
+	$navcategories,
+	$categoryid,
+	$categoryqcount,
+	$categorypathprefix,
+	$feedpathprefix,
+	$suggest,
+	$pagelinkparams = null,
+	$categoryparams = null,
+	$dummy = null
+) {
+	if (qa_to_override(__FUNCTION__)) {
+		$args = func_get_args();
+		return qa_call_override(__FUNCTION__, $args);
+	}
 
 	require_once QA_INCLUDE_DIR . 'app/format.php';
 	require_once QA_INCLUDE_DIR . 'app/updates.php';
@@ -117,8 +133,12 @@ function qa_q_list_page_content($questions, $pagesize, $start, $count, $sometitl
 		$favoritemap = qa_get_favorite_non_qs_map();
 		$categoryisfavorite = @$favoritemap['category'][$navcategories[$categoryid]['backpath']];
 
-		$qa_content['favorite'] = qa_favorite_form(QA_ENTITY_CATEGORY, $categoryid, $categoryisfavorite,
-			qa_lang_sub($categoryisfavorite ? 'main/remove_x_favorites' : 'main/add_category_x_favorites', $navcategories[$categoryid]['title']));
+		$qa_content['favorite'] = qa_favorite_form(
+			QA_ENTITY_CATEGORY,
+			$categoryid,
+			$categoryisfavorite,
+			qa_lang_sub($categoryisfavorite ? 'main/remove_x_favorites' : 'main/add_category_x_favorites', $navcategories[$categoryid]['title'])
+		);
 	}
 
 	if (isset($count) && isset($pagesize)) {
